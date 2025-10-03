@@ -57,7 +57,7 @@ const projects: Project[] = [
     location: "Victoria Island",
     state: "Lagos",
     region: "Lagos",
-    service: "Building Construction",
+    service: "Building Construction", 
     scope: "4-storey commercial building with modern amenities",
     result: "Delivered turnkey facility with full occupancy certification",
     image: "/images/commercial-building-construction-lagos.jpg",
