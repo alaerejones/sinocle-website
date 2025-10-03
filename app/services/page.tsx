@@ -138,7 +138,7 @@ const services: ServiceDetail[] = [
     headline: "Professional Oversight for Your Projects",
     valueLine:
       "Ensure quality, timeline, and budget compliance with expert project management and inspection services.",
-    image: "/images/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg",
+    image: "/images/projectmanagement.png",
     whatWeDo: [
       "Project planning and scheduling",
       "Quality control and assurance",
