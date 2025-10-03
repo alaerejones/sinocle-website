@@ -233,11 +233,11 @@ export default function ServicesPage() {
           <div className="container relative z-10">
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-block bg-mid-green/20 border border-mid-green/30 px-4 py-2 rounded mb-6">
-                <span className="text-mid-green font-bold text-md uppercase tracking-wide">
+                <span className="!text-white font-bold text-md uppercase tracking-wide">
                   Professional Construction Services
                 </span>
               </div>
-              <h1 className="text-white mb-6 text-2xl md:text-3xl font-bold">Comprehensive Infrastructure Solutions</h1>
+              <h1 className="!text-white mb-6 text-2xl md:text-3xl font-bold">Comprehensive Infrastructure Solutions</h1>
               <p className="text-md text-white/80 leading-relaxed">
                 Sinocle Nigeria Limited provides end-to-end construction services for government agencies, private
                 developers, and industrial clients. Our expertise spans civil engineering, building construction, and
