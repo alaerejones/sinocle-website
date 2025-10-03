@@ -4,7 +4,7 @@ import { getWhatsAppUrl, addUTMParams } from "@/lib/whatsapp"
 
 export function Hero() {
   return (
-    <section className="relative py-20 flex items-center justify-center overflow-hidden">
+    <section className="relative py-25 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src="/images/infrastructure.jpg"
