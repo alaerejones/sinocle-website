@@ -224,7 +224,7 @@ export default function ServicesPage() {
         <section className="relative py-30 text-white overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
-              src="/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg"
+              src="/images/aboutengineering.png"
               alt="Construction services background"
               className="w-full h-full object-cover"
             />
