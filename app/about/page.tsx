@@ -76,7 +76,7 @@ const team = [
 
 export default function AboutPage() {
   return (
-    <div className="pt-32">
+    <div className="pt-20">
       {/* Hero */}
       <section className="relative py-20 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
