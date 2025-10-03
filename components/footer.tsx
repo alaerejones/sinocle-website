@@ -26,7 +26,7 @@ export function Footer() {
               className="h-16 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-white text-sm leading-relaxed">
-              Construction that delivers on time and to spec across Nigeria.
+              Delivering exceptional construction and Real Estate solutions across West Africa.
             </p>
           </div>
 
