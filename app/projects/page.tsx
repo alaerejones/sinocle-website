@@ -79,7 +79,7 @@ export default function ProjectsPage() {
       <section className="relative py-33 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg"
+            src="/images/project.jpg"
             alt="Projects background"
             className="w-full h-full object-cover"
           />
