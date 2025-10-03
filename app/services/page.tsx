@@ -163,7 +163,7 @@ const services: ServiceDetail[] = [
     slug: "facility-services",
     headline: "Ongoing Maintenance and Facility Management",
     valueLine: "Keep your facilities in optimal condition with our comprehensive maintenance and management services.",
-    image: "/images/2-TCbx0UeyrPJ9gYrAAJ5T2gqrlx2MTY.png",
+    image: "/images/facility-maintenance-worker-inspection.jpg",
     whatWeDo: [
       "Preventive maintenance programs",
       "Repair and restoration work",
