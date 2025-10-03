@@ -92,9 +92,9 @@ export default function AboutPage() {
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-accent/20 border border-accent/30 px-4 py-2 rounded mb-6">
-              <span className="text-accent font-bold text-md uppercase tracking-wide">About Sinocle Nigeria</span>
+              <span className="!text-white font-bold text-md uppercase tracking-wide">About Sinocle Nigeria</span>
             </div>
-            <h1 className="text-white mb-6 text-2xl md:text-3xl font-bold">
+            <h1 className="!text-white mb-6 text-2xl md:text-3xl font-bold">
               West Africa's Trusted Infrastructure Partner
             </h1>
             <p className="text-md text-white/80 leading-relaxed mb-10">
@@ -182,7 +182,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded overflow-hidden shadow-2xl">
               <img
-                src="/images/abouteng.png"
+                src="/images/aboutengineering.png"
                 alt="Sinocle site supervisor inspecting construction project in Nigeria"
                 className="w-full h-full object-cover"
               />
