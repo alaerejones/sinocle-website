@@ -67,7 +67,7 @@ export function ProjectsCarousel() {
         <div className="text-center mb-12">
           <h2 className="mb-4 text-xl md:text-2xl">Featured Projects</h2>
           <p className="text-md max-w-2xl mx-auto">
-            Delivering quality construction across Nigeria with proven results.
+            Delivering quality construction in Nigeria and across West Africa with proven results.
           </p>
         </div>
 
