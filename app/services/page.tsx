@@ -245,20 +245,12 @@ export default function ServicesPage() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 pt-10 border-t border-white/20">
                 <div>
-                  <div className="text-mid-green text-xl font-bold mb-1">6</div>
-                  <div className="text-white/70 text-md">Service Lines</div>
-                </div>
-                <div>
-                  <div className="text-mid-green text-xl font-bold mb-1">5</div>
-                  <div className="text-white/70 text-md">States Covered</div>
+                  <div className="text-mid-green text-xl font-bold mb-1">5+</div>
+                  <div className="text-white/70 text-md">West African countries in operation</div>
                 </div>
                 <div>
                   <div className="text-mid-green text-xl font-bold mb-1">100%</div>
                   <div className="text-white/70 text-md">Compliance Rate</div>
-                </div>
-                <div>
-                  <div className="text-mid-green text-xl font-bold mb-1">48hrs</div>
-                  <div className="text-white/70 text-md">Quote Turnaround</div>
                 </div>
               </div>
             </div>
