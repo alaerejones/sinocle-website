@@ -27,7 +27,7 @@ const projects: Project[] = [
     service: "Drainage Systems",
     scope: "Construction of comprehensive drainage system to address flooding in residential areas",
     result: "Reduced flooding by 85% in the local community, protecting over 500 homes",
-    image: "/drainage-construction-project-nigeria.jpg",
+    image: "/images/drainage-construction-project-nigeria.jpg",
   },
   {
     id: "road-ethiope",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     service: "Road Construction",
     scope: "5km road construction with asphalt surfacing and drainage",
     result: "Completed 2 weeks ahead of schedule, connecting 3 communities",
-    image: "/road-construction-nigeria-workers.jpg",
+    image: "/images/road-construction-nigeria-workers.jpg",
   },
   {
     id: "retaining-wall-kwale",
@@ -49,7 +49,7 @@ const projects: Project[] = [
     service: "Industrial Works",
     scope: "Design and construction of industrial-grade retaining wall for propane storage facility",
     result: "Safety-compliant structure completed with zero HSE incidents",
-    image: "/industrial-retaining-wall-construction.jpg",
+    image: "/images/industrial-retaining-wall-construction.jpg",
   },
   {
     id: "commercial-building-lagos",
@@ -60,7 +60,7 @@ const projects: Project[] = [
     service: "Building Construction",
     scope: "4-storey commercial building with modern amenities",
     result: "Delivered turnkey facility with full occupancy certification",
-    image: "/commercial-building-construction-lagos.jpg",
+    image: "/images/commercial-building-construction-lagos.jpg",
   },
 ]
 
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="pt-32">
-      <section className="relative py-20 text-white overflow-hidden">
+      <section className="relative py-33 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg"
