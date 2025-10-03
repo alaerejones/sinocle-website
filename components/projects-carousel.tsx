@@ -44,7 +44,7 @@ const featuredProjects: Project[] = [
     location: "Lagos",
     state: "Lagos",
     result: "Commercial facility delivered on time and to spec",
-    image: "/images/building-construction-site-nigeria.jpg",
+    image: "/images/commercial1.png",
   },
 ]
 
