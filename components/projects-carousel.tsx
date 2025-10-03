@@ -28,7 +28,7 @@ const featuredProjects: Project[] = [
     location: "Ethiope East LGA",
     state: "Delta State",
     result: "5km of durable road infrastructure completed ahead of schedule",
-    image: "/images/road-construction-asphalt-laying-nigeria.jpg",
+    image: "/images/project.jpg",
   },
   {
     id: "residential-delta",
