@@ -239,7 +239,7 @@ export default function AboutPage() {
               const Icon = value.icon
               return (
                 <div key={index} className="text-center">
-                  <div className="bg-surface rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6 shadow-lg">
+                  <div className="bg-surface rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 shadow-lg">
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-lg font-bold mb-4 text-foreground uppercase tracking-wide">{value.title}</h3>
