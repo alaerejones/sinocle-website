@@ -22,7 +22,7 @@ export function Hero() {
             Construction that delivers on time and to spec.
           </h1>
           <p className="text-white text-md mb-8 leading-relaxed">
-            Private, commercial, real estate companies and government building and infrastructure development of duplexes Roads, drainages, buildings, and facility in Nigeria and across West Africa.
+            Private, commercial, real estate companies and government building and infrastructure development in Nigeria and across West Africa.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
