@@ -16,7 +16,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-[rgba(14,58,47,0.18)]" />
       </div>
 
-      <div className="container relative z-10 py-30">
+      <div className="container relative z-10 py-35">
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-white mb-6 text-balance text-2xl md:text-3xl font-bold">
             Construction that delivers on time and to spec.
