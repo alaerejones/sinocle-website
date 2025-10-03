@@ -18,7 +18,7 @@ export function Hero() {
 
       <div className="container relative z-10 py-32">
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-white mb-6 text-balance text-2xl md:text-3xl font-bold">
+          <h1 className="!text-white mb-6 text-balance text-2xl md:text-3xl font-bold">
             Construction that delivers on time and to spec.
           </h1>
           <p className="text-white text-md mb-8 leading-relaxed">
