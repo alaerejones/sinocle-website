@@ -369,7 +369,7 @@ export default function ServicesPage() {
           </div>
           <div className="container relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-white mb-6 text-xl md:text-2xl">Partner With Nigeria's Leading Construction Firm</h2>
+              <h2 className="!text-white mb-6 text-xl md:text-2xl">Partner With Nigeria's Leading Construction Firm</h2>
               <p className="text-md text-white/80 mb-10 leading-relaxed">
                 Request a detailed technical proposal within 48 hours or schedule an on-site consultation with our
                 engineering team.
