@@ -4,10 +4,10 @@ import { getWhatsAppUrl, addUTMParams } from "@/lib/whatsapp"
 
 export function Hero() {
   return (
-    <section className="relative py-20 flex items-center justify-center overflow-hidden bg-ink">
+    <section className="relative py-20 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg"
+          src="/images/infrastructure.jpg"
           alt="Road construction project with asphalt paving in Nigeria"
           className="w-full h-full object-cover"
           loading="eager"
@@ -16,12 +16,12 @@ export function Hero() {
         <div className="absolute inset-0 bg-[rgba(14,58,47,0.18)]" />
       </div>
 
-      <div className="container relative z-10 py-20">
+      <div className="container relative z-10 py-30">
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-white mb-6 text-balance text-2xl md:text-3xl font-bold">
             Construction that delivers on time and to spec.
           </h1>
-          <p className="text-white text-sm mb-8 leading-relaxed">
+          <p className="text-white text-md mb-8 leading-relaxed">
             Roads, drainage, buildings, and facility support across Nigeria.
           </p>
 
@@ -30,7 +30,7 @@ export function Hero() {
               href={addUTMParams(getWhatsAppUrl("site-visit"), "hero-primary", "website")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-deep-green hover:bg-primary-hover text-white font-bold px-6 py-3 md:px-5 md:py-2.5 text-sm rounded transition-all duration-300"
+              className="inline-flex items-center justify-center bg-deep-green hover:bg-primary-hover text-white font-bold px-6 py-3 md:px-5 md:py-2.5 text-md rounded transition-all duration-300"
             >
               Book a site visit
             </a>
@@ -38,9 +38,9 @@ export function Hero() {
               href={addUTMParams(getWhatsAppUrl("quote"), "hero-secondary", "website")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center border-2 border-mid-green text-white hover:bg-mid-green hover:text-white font-bold px-6 py-3 md:px-5 md:py-2.5 text-sm rounded transition-all duration-300"
+              className="inline-flex items-center justify-center border-2 border-mid-green text-white hover:bg-mid-green hover:text-white font-bold px-6 py-3 md:px-5 md:py-2.5 text-md rounded transition-all duration-300"
             >
-              Get a 48-hour quote
+              Get a quote
             </a>
             <a
               href={addUTMParams(getWhatsAppUrl("general"), "hero-whatsapp", "website")}
@@ -55,7 +55,7 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="text-white text-sm tracking-wide">
+          <p className="text-white text-md tracking-wide">
             Government and private projects across Delta, Lagos, Abuja.
           </p>
         </div>

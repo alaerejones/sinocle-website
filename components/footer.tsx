@@ -25,7 +25,7 @@ export function Footer() {
               height={120}
               className="h-16 w-auto mb-4 brightness-0 invert"
             />
-            <p className="text-white text-sm leading-relaxed">
+            <p className="text-white text-md leading-relaxed">
               Construction that delivers on time and to spec across Nigeria.
             </p>
           </div>
@@ -35,22 +35,22 @@ export function Footer() {
             <h3 className="font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services" className="text-white hover:text-mint transition-colors text-sm">
+                <Link href="/services" className="text-white hover:text-mint transition-colors text-md">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-white hover:text-mint transition-colors text-sm">
+                <Link href="/projects" className="text-white hover:text-mint transition-colors text-md">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-white hover:text-mint transition-colors text-sm">
+                <Link href="/about" className="text-white hover:text-mint transition-colors text-md">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-white hover:text-mint transition-colors text-sm">
+                <Link href="/contact" className="text-white hover:text-mint transition-colors text-md">
                   Contact
                 </Link>
               </li>
@@ -61,25 +61,25 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-white mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-2 text-sm">
+              <li className="flex items-start gap-2 text-md">
                 <MapPin className="h-3 w-3 mt-1 flex-shrink-0 text-mid-green" />
                 <span className="text-white">
                   {CONTACT.address.street}, {CONTACT.address.city}, {CONTACT.address.state}
                 </span>
               </li>
-              <li className="flex items-center gap-2 text-sm">
+              <li className="flex items-center gap-2 text-md">
                 <Phone className="h-3 w-3 flex-shrink-0 text-mid-green" />
                 <a href={`tel:${CONTACT.phone}`} className="text-white hover:text-mint transition-colors">
                   {CONTACT.phone}
                 </a>
               </li>
-              <li className="flex items-center gap-2 text-sm">
+              <li className="flex items-center gap-2 text-md">
                 <Mail className="h-3 w-3 flex-shrink-0 text-mid-green" />
                 <a href={`mailto:${CONTACT.email}`} className="text-white hover:text-mint transition-colors">
                   {CONTACT.email}
                 </a>
               </li>
-              <li className="flex items-center gap-2 text-sm">
+              <li className="flex items-center gap-2 text-md">
                 <MessageCircle className="h-3 w-3 flex-shrink-0 text-[#25D366]" />
                 <a
                   href={addUTMParams(CONTACT.whatsapp.url, "footer", "website")}
@@ -96,12 +96,12 @@ export function Footer() {
           {/* CTA */}
           <div>
             <h3 className="font-bold text-white mb-4">Get Started</h3>
-            <p className="text-white text-sm mb-4">Ready to start your project? Request a site visit today.</p>
+            <p className="text-white text-md mb-4">Ready to start your project? Request a site visit today.</p>
             <a
               href={addUTMParams(getWhatsAppUrl("site-visit"), "footer-cta", "website")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-deep-green hover:bg-primary-hover text-white font-medium px-6 py-3 rounded-lg transition-colors text-sm border-2 border-white"
+              className="inline-block bg-deep-green hover:bg-primary-hover text-white font-medium px-6 py-3 rounded-lg transition-colors text-md border-2 border-white"
             >
               Request a Site Visit
             </a>
@@ -110,7 +110,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/10 pt-6">
-          <p className="text-white text-sm text-center">
+          <p className="text-white text-md text-center">
             &copy; {currentYear} Sinocle Nigeria Limited. All rights reserved.
           </p>
         </div>

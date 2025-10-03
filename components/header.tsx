@@ -57,7 +57,7 @@ export function Header() {
       {/* Top bar with contact options */}
       <div className="bg-deep-green text-white">
         <div className="container">
-          <div className="flex items-center justify-between py-2 text-sm">
+          <div className="flex items-center justify-between py-2 text-md">
             <button
               onClick={handlePhoneClick}
               className="flex items-center gap-2 hover:text-mint transition-colors group relative"

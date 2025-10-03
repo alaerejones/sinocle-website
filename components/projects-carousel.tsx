@@ -20,7 +20,7 @@ const featuredProjects: Project[] = [
     location: "Oshimili South",
     state: "Delta State",
     result: "Reduced flooding by 85% in the local community",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
+    image: "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
   },
   {
     id: "road-ethiope",
@@ -28,7 +28,7 @@ const featuredProjects: Project[] = [
     location: "Ethiope East LGA",
     state: "Delta State",
     result: "5km of durable road infrastructure completed ahead of schedule",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
+    image: "/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
   },
   {
     id: "residential-delta",
@@ -36,7 +36,7 @@ const featuredProjects: Project[] = [
     location: "Delta",
     state: "Delta State",
     result: "Quality residential construction for private client",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
+    image: "/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
   },
   {
     id: "commercial-lagos",
@@ -44,7 +44,7 @@ const featuredProjects: Project[] = [
     location: "Lagos",
     state: "Lagos",
     result: "Commercial facility delivered on time and to spec",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg",
+    image: "/images/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg",
   },
 ]
 
@@ -66,7 +66,7 @@ export function ProjectsCarousel() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="mb-4 text-xl md:text-2xl">Featured Projects</h2>
-          <p className="text-sm max-w-2xl mx-auto">
+          <p className="text-md max-w-2xl mx-auto">
             Delivering quality construction across Nigeria with proven results.
           </p>
         </div>
@@ -87,15 +87,15 @@ export function ProjectsCarousel() {
             <div className="p-6 md:p-8">
               <div className="flex items-start gap-2 text-accent mb-2">
                 <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
-                <span className="font-medium text-sm">
+                <span className="font-medium text-md">
                   {currentProject.location}, {currentProject.state}
                 </span>
               </div>
               <h3 className="text-xl mb-3">{currentProject.title}</h3>
-              <p className="text-muted leading-relaxed mb-6 text-sm">{currentProject.result}</p>
+              <p className="text-muted leading-relaxed mb-6 text-md">{currentProject.result}</p>
               <Link
                 href={`/projects/${currentProject.id}`}
-                className="inline-flex items-center text-primary hover:text-accent font-medium transition-colors text-sm"
+                className="inline-flex items-center text-primary hover:text-accent font-medium transition-colors text-md"
               >
                 View case study →
               </Link>

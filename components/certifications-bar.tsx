@@ -38,7 +38,7 @@ export function CertificationsBar() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-bold text-foreground text-sm leading-tight">{cert.title}</div>
+                  <div className="font-bold text-foreground text-md leading-tight">{cert.title}</div>
                   <div className="text-muted-light text-xs mt-0.5">{cert.subtitle}</div>
                 </div>
               </div>

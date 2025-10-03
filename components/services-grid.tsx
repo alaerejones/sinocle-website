@@ -17,7 +17,7 @@ export function ServicesGrid() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="mb-4 text-xl md:text-2xl">Our Services</h2>
-          <p className="text-sm max-w-2xl mx-auto text-muted leading-relaxed">
+          <p className="text-md max-w-2xl mx-auto text-muted leading-relaxed">
             Comprehensive construction solutions for government agencies and private developers across Nigeria.
           </p>
         </div>
@@ -35,8 +35,8 @@ export function ServicesGrid() {
                   <Icon className="h-5 w-5 text-charcoal group-hover:text-white" />
                 </div>
                 <h3 className="text-lg mb-2 group-hover:text-charcoal transition-colors">{service.title}</h3>
-                <p className="text-muted mb-4 leading-relaxed text-sm">{service.description}</p>
-                <div className="flex items-center text-mid-green font-medium text-sm group-hover:gap-2 transition-all">
+                <p className="text-muted mb-4 leading-relaxed text-md">{service.description}</p>
+                <div className="flex items-center text-mid-green font-medium text-md group-hover:gap-2 transition-all">
                   Learn more
                   <ArrowRight className="h-3.5 w-3.5 ml-1 group-hover:translate-x-1 transition-transform" />
                 </div>

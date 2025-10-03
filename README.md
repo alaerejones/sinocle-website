@@ -41,7 +41,7 @@ Professional construction company website built with Next.js, featuring comprehe
 │   ├── whatsapp.ts           # WhatsApp utilities
 │   └── analytics.ts          # Analytics tracking
 └── public/
-    └── images/               # Project images and assets
+    └── /images/               # Project images and assets
 \`\`\`
 
 ## Key Pages
@@ -144,14 +144,6 @@ npm run build
 # Start production server
 npm start
 \`\`\`
-
-## Deployment
-
-This project is optimized for deployment on Vercel:
-
-1. Push to GitHub
-2. Import to Vercel
-3. Deploy automatically
 
 ## License
 

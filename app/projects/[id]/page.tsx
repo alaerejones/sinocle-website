@@ -32,9 +32,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "6 months",
     client: "Oshimili South Local Government",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-TCbx0UeyrPJ9gYrAAJ5T2gqrlx2MTY.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
+      "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
+      "/images/2-TCbx0UeyrPJ9gYrAAJ5T2gqrlx2MTY.png",
+      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
     ],
     challenges: [
       "Existing infrastructure constraints",
@@ -64,9 +64,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "8 months",
     client: "Delta State Government",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
+      "/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
+      "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
+      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
     ],
     challenges: [
       "Poor soil conditions requiring extensive earthworks",
@@ -96,9 +96,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "5 months",
     client: "Private Industrial Client",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project4.png-tKEt90MtQ9xaMBT9griXzkSODOECop.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3.png-FKDttiUesUVKlpYpWczzUS7qbJ9OhG.jpeg",
+      "/images/project4.png-tKEt90MtQ9xaMBT9griXzkSODOECop.jpeg",
+      "/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
+      "/images/3.png-FKDttiUesUVKlpYpWczzUS7qbJ9OhG.jpeg",
     ],
     challenges: [
       "Stringent safety requirements for propane storage",
@@ -191,7 +191,7 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/60 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 container pb-8">
-            <div className="bg-accent text-white text-sm font-medium px-4 py-2 rounded-full inline-block mb-4">
+            <div className="bg-accent text-white text-md font-medium px-4 py-2 rounded-full inline-block mb-4">
               {project.service}
             </div>
             <h1 className="text-white mb-2">{project.title}</h1>
@@ -318,7 +318,7 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
 
                   <div className="mt-8 pt-6 border-t border-border">
                     <h4 className="font-bold mb-3">Start Your Project</h4>
-                    <p className="text-sm text-muted mb-4">
+                    <p className="text-md text-muted mb-4">
                       Ready to discuss your construction needs? Book a site visit today.
                     </p>
                     <a
