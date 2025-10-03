@@ -19,7 +19,7 @@ export const SERVICES = [
     id: "roads",
     title: "Road Construction",
     slug: "road-construction",
-    description: "Durable road infrastructure built to Nigerian standards",
+    description: "Durable road infrastructure built to standards",
   },
   {
     id: "drainage",
