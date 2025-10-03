@@ -20,7 +20,7 @@ const featuredProjects: Project[] = [
     location: "Oshimili South",
     state: "Delta State",
     result: "Reduced flooding by 85% in the local community",
-    image: "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
+    image: "/images/drainage-construction-project-nigeria.jpg",
   },
   {
     id: "road-ethiope",
@@ -28,7 +28,7 @@ const featuredProjects: Project[] = [
     location: "Ethiope East LGA",
     state: "Delta State",
     result: "5km of durable road infrastructure completed ahead of schedule",
-    image: "/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
+    image: "/images/road-construction-asphalt-laying-nigeria.jpg",
   },
   {
     id: "residential-delta",
@@ -36,7 +36,7 @@ const featuredProjects: Project[] = [
     location: "Delta",
     state: "Delta State",
     result: "Quality residential construction for private client",
-    image: "/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
+    image: "/images/construction-project-manager-site-inspection.jpg",
   },
   {
     id: "commercial-lagos",
@@ -44,7 +44,7 @@ const featuredProjects: Project[] = [
     location: "Lagos",
     state: "Lagos",
     result: "Commercial facility delivered on time and to spec",
-    image: "/images/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg",
+    image: "/images/building-construction-site-nigeria.jpg",
   },
 ]
 
