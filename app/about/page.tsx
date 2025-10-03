@@ -81,7 +81,7 @@ export default function AboutPage() {
       <section className="relative py-20 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg"
+            src="/images/about.png"
             alt="About Sinocle background"
             className="w-full h-full object-cover"
             loading="eager"

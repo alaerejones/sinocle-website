@@ -32,9 +32,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "6 months",
     client: "Oshimili South Local Government",
     images: [
-      "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
-      "/images/2-TCbx0UeyrPJ9gYrAAJ5T2gqrlx2MTY.png",
-      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
+      "/images/infrastructure.jpg",
+      "/images/infrastructure.jpg",
+      "/images/infrastructure.jpg",
     ],
     challenges: [
       "Existing infrastructure constraints",
