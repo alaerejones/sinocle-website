@@ -36,7 +36,7 @@ const featuredProjects: Project[] = [
     location: "Delta",
     state: "Delta State",
     result: "Quality residential construction for private client",
-    image: "/images/construction-project-manager-site-inspection.jpg",
+    image: "/images/about.png",
   },
   {
     id: "commercial-lagos",
