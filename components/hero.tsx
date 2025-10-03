@@ -22,8 +22,7 @@ export function Hero() {
             Construction that delivers on time and to spec.
           </h1>
           <p className="text-white text-md mb-8 leading-relaxed">
-            Roads, drainage, buildings, and facility support across Nigeria.
-          </p>
+West Africa          </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
             <a
@@ -45,9 +44,7 @@ export function Hero() {
           
           </div>
 
-          <p className="text-white text-md tracking-wide">
-            Government and private projects across Delta, Lagos, Abuja.
-          </p>
+      
         </div>
       </div>
     </section>
