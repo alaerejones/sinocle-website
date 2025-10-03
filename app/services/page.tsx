@@ -220,7 +220,7 @@ export default function ServicesPage() {
         }}
       />
 
-      <div className="pt-32">
+      <div className="pt-20">
         <section className="relative py-20 text-white overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
