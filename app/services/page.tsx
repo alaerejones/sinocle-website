@@ -112,7 +112,7 @@ const services: ServiceDetail[] = [
     headline: "Specialized Industrial Construction",
     valueLine:
       "Heavy-duty infrastructure for industrial facilities, including retaining walls and specialized structures.",
-    image: "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
+    image: "/images/industrialwork.png",
     whatWeDo: [
       "Industrial site preparation",
       "Heavy foundation work",
