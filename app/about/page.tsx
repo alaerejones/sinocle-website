@@ -182,7 +182,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded overflow-hidden shadow-2xl">
               <img
-                src="/images/23.png-cfH6ISHUk6SAP2PSppBtJWAhXT4hy2.jpeg"
+                src="/images/abouteng.png"
                 alt="Sinocle site supervisor inspecting construction project in Nigeria"
                 className="w-full h-full object-cover"
               />
