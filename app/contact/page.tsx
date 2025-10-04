@@ -96,11 +96,11 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="pt-32">
+    <div className="pt-20">
       <section className="relative py-20 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/2-TCbx0UeyrPJ9gYrAAJ5T2gqrlx2MTY.png"
+            src="/images/building-construction-site-nigeria.jpg"
             alt="Contact us background"
             className="w-full h-full object-cover"
           />
