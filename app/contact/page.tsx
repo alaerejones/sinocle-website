@@ -470,7 +470,7 @@ export default function ContactPage() {
                 disabled={isSubmitting}
                 className="w-full bg-primary hover:bg-primary-hover text-white font-bold px-6 py-3 md:px-5 md:py-2.5 text-md rounded transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg uppercase tracking-wide"
               >
-                {isSubmitting ? "Processing..." : "Submit & Continue to WhatsApp"}
+                {isSubmitting ? "Processing..." : "Submit"}
               </button>
 
               <p className="text-md text-muted text-center mt-6 leading-relaxed">
