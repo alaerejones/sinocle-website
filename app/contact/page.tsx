@@ -109,9 +109,9 @@ export default function ContactPage() {
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-accent/20 border border-accent/30 px-4 py-2 rounded mb-6">
-              <span className="text-accent font-bold text-md uppercase tracking-wide">Contact Us</span>
+              <span className="!text-white font-bold text-md uppercase tracking-wide">Contact Us</span>
             </div>
-            <h1 className="text-white mb-6 text-2xl md:text-3xl font-bold">Start Your Infrastructure Project</h1>
+            <h1 className="!text-white mb-6 text-2xl md:text-3xl font-bold">Start Your Infrastructure Project</h1>
             <p className="text-md text-white/80 leading-relaxed mb-10">
               Connect with our engineering team to discuss project requirements, request technical proposals, or
               schedule on-site consultations. We respond to all inquiries within 24 hours.
