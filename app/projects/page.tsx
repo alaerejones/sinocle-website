@@ -88,9 +88,9 @@ export default function ProjectsPage() {
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-mid-green/20 border border-mid-green/30 px-4 py-2 rounded mb-6">
-              <span className="text-mid-green font-bold text-md uppercase tracking-wide">Project Portfolio</span>
+              <span className="!text-white font-bold text-md uppercase tracking-wide">Project Portfolio</span>
             </div>
-            <h1 className="text-white mb-6 text-2xl md:text-3xl font-bold">Proven Track Record Across Nigeria</h1>
+            <h1 className="!text-white mb-6 text-2xl md:text-3xl font-bold">Proven Track Record Across Nigeria</h1>
             <p className="text-md text-white/80 leading-relaxed mb-10">
               Explore our portfolio of successfully delivered infrastructure projects. From government contracts to
               private developments, we consistently deliver quality results on schedule and within budget.
