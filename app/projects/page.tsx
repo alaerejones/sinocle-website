@@ -76,7 +76,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="pt-20">
-      <section className="relative py-20 text-white overflow-hidden">
+      <section className="relative py-25 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/nigerian-road-construction-project-with-workers-in.jpg"
