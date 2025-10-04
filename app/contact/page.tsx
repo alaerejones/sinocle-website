@@ -97,7 +97,7 @@ export default function ContactPage() {
 
   return (
     <div className="pt-20">
-      <section className="relative py-20 text-white overflow-hidden">
+      <section className="relative py-25 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/building-construction-site-nigeria.jpg"
