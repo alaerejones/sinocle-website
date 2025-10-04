@@ -248,7 +248,10 @@ export default function ServicesPage() {
                   <div className="text-mid-green text-xl font-bold mb-1">5+</div>
                   <div className="text-white/70 text-md">West African countries in operation</div>
                 </div>
-               
+                {/* <div>
+                  <div className="text-mid-green text-xl font-bold mb-1">100%</div>
+                  <div className="text-white/70 text-md">Compliance Rate</div>
+                </div> */}
               </div>
             </div>
           </div>
