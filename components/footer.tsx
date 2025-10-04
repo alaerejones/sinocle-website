@@ -110,7 +110,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/10 pt-6">
-          <p className="!text-[#606b75] text-sm text-center">
+          <p className="!text-off-white text-sm text-center">
             &copy; {currentYear} Sinocle Nigeria Limited. All rights reserved.
           </p>
         </div>
