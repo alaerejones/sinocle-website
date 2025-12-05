@@ -22,6 +22,12 @@ export const SERVICES = [
     description: "Durable road infrastructure built to standards",
   },
   {
+  id: "architectural-design",
+  title: "Architectural Design",
+  slug: "architectural-design",
+  description: "Concept design and technical drawings for residential and commercial projects",
+  },
+  {
     id: "drainage",
     title: "Drainage Systems",
     slug: "drainage-systems",
@@ -51,13 +57,7 @@ export const SERVICES = [
     slug: "facility-services",
     description: "Ongoing maintenance and facility management",
   },
-  {
-  id: "architectural-design",
-  title: "Architectural Design",
-  slug: "architectural-design",
-  description: "Concept design and technical drawings for residential and commercial projects",
-},
-  
+ 
 ] as const
 
 export const REGIONS = ["Delta", "Lagos", "Abuja", "Anambra", "Portharcourt", "Others"] as const
