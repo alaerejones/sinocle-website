@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { MapPin, ArrowRight } from "lucide-react"
-import { REGIONS} from "@/lib/constants"
+import { REGIONS, SERVICES } from "@/lib/constants"
 
 interface Project {
   id: string
@@ -91,7 +91,8 @@ export default function ProjectsPage() {
 
   const filteredProjects = projects.filter((project) => {
     const regionMatch = selectedRegion === "All" || project.region === selectedRegion
-    return regionMatch
+
+    return regionMatch 
   })
 
   return (
@@ -115,7 +116,7 @@ export default function ProjectsPage() {
               Explore our portfolio of successfully delivered infrastructure projects. From government contracts to
               private developments, we consistently deliver quality results on schedule and within budget.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-10 border-t border-white/20">
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-6 pt-10 border-t border-white/20">
               <div>
                 <div className="text-mid-green text-xl font-bold mb-1">150+</div>
                 <div className="text-white/70 text-md">Completed Projects</div>
@@ -187,6 +188,7 @@ export default function ProjectsPage() {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute top-4 right-4 bg-charcoal text-white text-xs font-bold px-3 py-2 rounded uppercase tracking-wide">
+                      {project.service}
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
                   </div>
