@@ -121,16 +121,8 @@ export default function ProjectsPage() {
                 <div className="text-white/70 text-md">Completed Projects</div>
               </div>
               <div>
-                <div className="text-mid-green text-xl font-bold mb-1">₦2.5B+</div>
-                <div className="text-white/70 text-md">Infrastructure Value</div>
-              </div>
-              <div>
                 <div className="text-mid-green text-xl font-bold mb-1">98%</div>
                 <div className="text-white/70 text-md">Client Satisfaction</div>
-              </div>
-              <div>
-                <div className="text-mid-green text-xl font-bold mb-1">5+</div>
-                <div className="text-white/70 text-md">Countries Served</div>
               </div>
             </div>
           </div>
