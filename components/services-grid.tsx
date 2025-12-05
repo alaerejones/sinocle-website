@@ -18,7 +18,7 @@ export function ServicesGrid() {
         <div className="text-center mb-12">
           <h2 className="mb-4 text-xl md:text-2xl">Our Services</h2>
           <p className="text-md max-w-2xl mx-auto text-muted leading-relaxed">
-            Comprehensive private, commercial and infrastructure construction solutions for individuals, real estate companies, organizations, institutions and government agencies in Nigeria and across West Africa.
+            Our work covers the full range of civil and building construction, from roads and drainage to structural projects and facility support.
           </p>
         </div>
 

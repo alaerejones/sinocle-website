@@ -23,7 +23,7 @@ const projects: Project[] = [
     title: "Drainage Construction",
     location: "Oshimili South",
     state: "Delta State",
-    region: "Delta",
+    region: "Nigeria",
     service: "Drainage Systems",
     scope: "Construction of comprehensive drainage system to address flooding in residential areas",
     result: "Reduced flooding by 85% in the local community, protecting over 500 homes",
@@ -34,7 +34,7 @@ const projects: Project[] = [
     title: "Road Construction",
     location: "Ethiope East LGA",
     state: "Delta State",
-    region: "Delta",
+    region: "Nigeria",
     service: "Road Construction",
     scope: "5km road construction with asphalt surfacing and drainage",
     result: "Completed 2 weeks ahead of schedule, connecting 3 communities",
@@ -45,7 +45,7 @@ const projects: Project[] = [
     title: "124-metre Propane Tank Bullet Retaining Wall",
     location: "Kwale",
     state: "Delta State",
-    region: "Delta",
+    region: "Nigeria",
     service: "Industrial Works",
     scope: "Design and construction of industrial-grade retaining wall for propane storage facility",
     result: "Safety-compliant structure completed with zero HSE incidents",
@@ -56,11 +56,33 @@ const projects: Project[] = [
     title: "Commercial Office Complex",
     location: "Victoria Island",
     state: "Lagos",
-    region: "Lagos",
+    region: "Nigeria",
     service: "Building Construction", 
     scope: "4-storey commercial building with modern amenities",
     result: "Delivered turnkey facility with full occupancy certification",
     image: "/images/commercial-building-construction-lagos.jpg",
+  },
+  {
+    id: "duplex-asaba",
+    title: "Residential Duplex Development",
+    location: "Asaba",
+    state: "Delta State",
+    region: "Delta",
+    service: "Building Construction",
+    scope: "Construction of a 4-bedroom duplex developed for a real-estate company for sale, including landscaping and finishing",
+    result: "Model unit completed and handed over; all 4 units marked for sale within 6 weeks of completion",
+    image: "/images/duplex-residential-asaba.jpg",
+  },
+  {
+    id: "architectural-design-anambra",
+    title: "Architectural Design & Drawings",
+    location: "Client site - Anambra",
+    state: "Anambra State",
+    region: "Anambra",
+    service: "Architectural Design",
+    scope: "Full architectural concept, technical drawings, and construction documentation for a bespoke residential project",
+    result: "Design package approved by client and used by main contractor to commence construction",
+    image: "/images/architectural-drawings-anambra.jpg",
   },
 ]
 
@@ -75,7 +97,7 @@ export default function ProjectsPage() {
   })
 
   return (
-    <div className="pt-20">
+    <div className="pt-25">
       <section className="relative py-30 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
@@ -109,8 +131,8 @@ export default function ProjectsPage() {
                 <div className="text-white/70 text-md">Client Satisfaction</div>
               </div>
               <div>
-                <div className="text-mid-green text-xl font-bold mb-1">5</div>
-                <div className="text-white/70 text-md">States Served</div>
+                <div className="text-mid-green text-xl font-bold mb-1">5+</div>
+                <div className="text-white/70 text-md">Countries Served</div>
               </div>
             </div>
           </div>
@@ -188,7 +210,7 @@ export default function ProjectsPage() {
               <p className="text-muted text-md">No projects found matching your filters.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
               {filteredProjects.map((project) => (
                 <Link
                   key={project.id}
@@ -196,7 +218,7 @@ export default function ProjectsPage() {
                   className="group bg-white rounded overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                 >
                   {/* Image */}
-                  <div className="relative h-56 overflow-hidden">
+                  <div className="relative aspect-[4/4] overflow-hidden">
                     <img
                       src={project.image || "/placeholder.svg"}
                       alt={`${project.title}, ${project.location}, ${project.state}`}

@@ -51,9 +51,16 @@ export const SERVICES = [
     slug: "facility-services",
     description: "Ongoing maintenance and facility management",
   },
+  {
+  id: "architectural-design",
+  title: "Architectural Design",
+  slug: "architectural-design",
+  description: "Concept design and technical drawings for residential and commercial projects",
+},
+  
 ] as const
 
-export const REGIONS = ["Delta", "Lagos", "Abuja", "Others"] as const
+export const REGIONS = ["Delta", "Lagos", "Abuja", "Anambra", "Portharcourt", "Others"] as const
 
 export const BUDGET_BANDS = ["Under ₦5M", "₦5M - ₦20M", "₦20M - ₦50M", "₦50M - ₦100M", "Over ₦100M"] as const
 

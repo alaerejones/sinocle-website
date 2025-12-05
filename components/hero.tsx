@@ -22,7 +22,7 @@ export function Hero() {
             Construction that delivers on time and to spec.
           </h1>
           <p className="text-white text-md mb-8 leading-relaxed">
-            Private, commercial, real estate companies and government building and infrastructure development in Nigeria and across West Africa.
+            We handle private, commercial, estate and government projects across Nigeria and West Africa. We deliver to spec, on time, and with safe site standards.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
