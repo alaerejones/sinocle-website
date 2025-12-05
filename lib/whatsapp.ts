@@ -1,4 +1,4 @@
-import { CONTACT } from "./constants"
+import { CONTACT } from "@/lib/constants"
 
 type WhatsAppMessageType = "call" | "email" | "quote" | "site-visit" | "tender" | "general"
 

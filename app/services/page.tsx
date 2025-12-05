@@ -55,6 +55,33 @@ const services: ServiceDetail[] = [
     timeline: "3-12 months depending on scope",
     handover: ["As-built drawings", "Material test certificates", "Maintenance guidelines", "12-month warranty"],
   },
+
+  {
+    id: "architectural-design",
+    title: "Architectural Design",
+    slug: "architectural-design",
+    headline: "Functional and Affordable Architectural Concepts",
+    valueLine: "Clear drawings and practical building plans that guide smooth construction and reduce errors.",
+    image: "/images/architectural-drawings-anambra.jpg",
+    whatWeDo: [
+      "Concept development",
+      "Architectural drawings",
+      "Floor plans and elevations",
+      "3D visualization",
+      "Building documentation",
+      "Regulatory approval support",
+    ],
+    whatYouGet: [
+      "Clear and approved drawings",
+      "Accurate measurements",
+      "Reduced construction mistakes",
+      "Smooth contractor handover",
+      "Construction-ready documentation",
+    ],
+    timeline: "2-6 weeks depending on project size",
+    handover: ["Full drawing set", "3D renders", "Approval-ready documents", "Specifications sheet"],
+  },
+
   {
     id: "drainage-systems",
     title: "Drainage Systems",
@@ -80,12 +107,14 @@ const services: ServiceDetail[] = [
     timeline: "2-8 months depending on scope",
     handover: ["Drainage plans", "Flow calculations", "Inspection reports", "Maintenance schedule"],
   },
+
   {
     id: "building-construction",
     title: "Building Construction",
     slug: "building-construction",
     headline: "Quality Buildings for Every Purpose",
-    valueLine: "From residential homes to commercial complexes, we build structures that stand the test of time.",
+    valueLine:
+      "From residential homes to commercial complexes, we build structures that stand the test of time.",
     image: "/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
     whatWeDo: [
       "Architectural planning and design",
@@ -105,6 +134,7 @@ const services: ServiceDetail[] = [
     timeline: "6-18 months depending on size",
     handover: ["Building plans", "Structural certificates", "Electrical and plumbing schematics", "Occupancy permit"],
   },
+
   {
     id: "industrial-works",
     title: "Industrial Works",
@@ -131,6 +161,7 @@ const services: ServiceDetail[] = [
     timeline: "4-12 months depending on complexity",
     handover: ["Engineering drawings", "Load test certificates", "Safety inspection reports", "Maintenance protocols"],
   },
+
   {
     id: "project-management",
     title: "Project Management & Inspection",
@@ -157,12 +188,14 @@ const services: ServiceDetail[] = [
     timeline: "Duration of your project",
     handover: ["Final inspection report", "Quality certificates", "Project documentation", "Handover checklist"],
   },
+
   {
     id: "facility-services",
     title: "Facility Services",
     slug: "facility-services",
     headline: "Ongoing Maintenance and Facility Management",
-    valueLine: "Keep your facilities in optimal condition with our comprehensive maintenance and management services.",
+    valueLine:
+      "Keep your facilities in optimal condition with our comprehensive maintenance and management services.",
     image: "/images/facility-maintenance-worker-inspection.png",
     whatWeDo: [
       "Preventive maintenance programs",
@@ -183,7 +216,6 @@ const services: ServiceDetail[] = [
     handover: ["Service reports", "Maintenance logs", "Equipment records", "Performance metrics"],
   },
 ]
-
 export default function ServicesPage() {
   return (
     <>

@@ -5,6 +5,13 @@ import { ContactBand } from "@/components/contact-band"
 import { BreadcrumbSchema } from "@/components/json-ld-schemas"
 import { CertificationsBar } from "@/components/certifications-bar"
 
+console.log("HERO:", typeof Hero)
+console.log("SERVICES:", typeof ServicesGrid)
+console.log("PROJECTS:", typeof ProjectsCarousel)
+console.log("CONTACT:", typeof ContactBand)
+console.log("BREADCRUMB:", typeof BreadcrumbSchema)
+console.log("CERTIFICATIONS:", typeof CertificationsBar)
+
 export default function HomePage() {
   return (
     <>
@@ -12,7 +19,7 @@ export default function HomePage() {
         items={[
           {
             name: "Home",
-            url: "https://sinoclenigeria.com",
+            url: "https://buildwithsinocle.com",
           },
         ]}
       />

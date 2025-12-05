@@ -23,7 +23,7 @@ const projects: Project[] = [
     title: "Drainage Construction",
     location: "Oshimili South",
     state: "Delta State",
-    region: "Nigeria",
+    region: "Delta",
     service: "Drainage Systems",
     scope: "Construction of comprehensive drainage system to address flooding in residential areas",
     result: "Reduced flooding by 85% in the local community, protecting over 500 homes",
@@ -34,7 +34,7 @@ const projects: Project[] = [
     title: "Road Construction",
     location: "Ethiope East LGA",
     state: "Delta State",
-    region: "Nigeria",
+    region: "Delta",
     service: "Road Construction",
     scope: "5km road construction with asphalt surfacing and drainage",
     result: "Completed 2 weeks ahead of schedule, connecting 3 communities",
@@ -45,7 +45,7 @@ const projects: Project[] = [
     title: "124-metre Propane Tank Bullet Retaining Wall",
     location: "Kwale",
     state: "Delta State",
-    region: "Nigeria",
+    region: "Delta",
     service: "Industrial Works",
     scope: "Design and construction of industrial-grade retaining wall for propane storage facility",
     result: "Safety-compliant structure completed with zero HSE incidents",
@@ -56,7 +56,7 @@ const projects: Project[] = [
     title: "Commercial Office Complex",
     location: "Victoria Island",
     state: "Lagos",
-    region: "Nigeria",
+    region: "Lagos",
     service: "Building Construction", 
     scope: "4-storey commercial building with modern amenities",
     result: "Delivered turnkey facility with full occupancy certification",
@@ -210,7 +210,7 @@ export default function ProjectsPage() {
               <p className="text-muted text-md">No projects found matching your filters.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-9xl mx-auto">
               {filteredProjects.map((project) => (
                 <Link
                   key={project.id}

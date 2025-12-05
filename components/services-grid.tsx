@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Construction, Droplets, Building2, Factory, ClipboardCheck, Wrench } from "lucide-react"
+import { ArrowRight, Construction, Droplets, Building2, Factory, ClipboardCheck, Wrench, PencilRuler } from "lucide-react"
 import { SERVICES } from "@/lib/constants"
 
 const serviceIcons = {
@@ -9,6 +9,7 @@ const serviceIcons = {
   industrial: Factory,
   "project-management": ClipboardCheck,
   facility: Wrench,
+  "architectural-design": PencilRuler,
 }
 
 export function ServicesGrid() {

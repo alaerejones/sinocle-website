@@ -34,25 +34,26 @@ const projectDetails: Record<string, ProjectDetail> = {
     images: [
       "/images/infrastructure.jpg",
       "/images/infrastructure.jpg",
-      "/images/infrastructure.jpg",
+      "/images/infrastructure.jpg"
     ],
     challenges: [
       "Existing infrastructure constraints",
       "High water table in the area",
-      "Coordination with residential activities",
+      "Coordination with residential activities"
     ],
     solutions: [
       "Phased construction approach to minimize disruption",
       "Advanced drainage design with proper gradient calculations",
-      "Community engagement and regular updates",
+      "Community engagement and regular updates"
     ],
     outcomes: [
       "85% reduction in flooding incidents",
       "Protected over 500 residential properties",
       "Improved public health and sanitation",
-      "Enhanced property values in the area",
-    ],
+      "Enhanced property values in the area"
+    ]
   },
+
   "road-ethiope": {
     id: "road-ethiope",
     title: "Road Construction",
@@ -66,25 +67,26 @@ const projectDetails: Record<string, ProjectDetail> = {
     images: [
       "/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
       "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
-      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png",
+      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png"
     ],
     challenges: [
       "Poor soil conditions requiring extensive earthworks",
       "Rainy season construction challenges",
-      "Traffic management during construction",
+      "Traffic management during construction"
     ],
     solutions: [
       "Comprehensive soil stabilization program",
       "Weather-adaptive construction scheduling",
-      "Effective traffic diversion and signage",
+      "Effective traffic diversion and signage"
     ],
     outcomes: [
       "5km of durable road infrastructure",
       "Connected 3 previously isolated communities",
       "Reduced travel time by 40%",
-      "Completed 2 weeks ahead of schedule",
-    ],
+      "Completed 2 weeks ahead of schedule"
+    ]
   },
+
   "retaining-wall-kwale": {
     id: "retaining-wall-kwale",
     title: "124-metre Propane Tank Bullet Retaining Wall",
@@ -98,25 +100,110 @@ const projectDetails: Record<string, ProjectDetail> = {
     images: [
       "/images/project4.png-tKEt90MtQ9xaMBT9griXzkSODOECop.jpeg",
       "/images/project3.DNG-dVBoe5BpkUtFAouTorn402Bn9Y5eef.jpeg",
-      "/images/3.png-FKDttiUesUVKlpYpWczzUS7qbJ9OhG.jpeg",
+      "/images/3.png-FKDttiUesUVKlpYpWczzUS7qbJ9OhG.jpeg"
     ],
     challenges: [
       "Stringent safety requirements for propane storage",
       "Load-bearing capacity specifications",
-      "Working in active industrial environment",
+      "Working in active industrial environment"
     ],
     solutions: [
       "Rigorous HSE protocols and daily safety briefings",
       "Advanced engineering design with safety margins",
-      "Coordinated scheduling with facility operations",
+      "Coordinated scheduling with facility operations"
     ],
     outcomes: [
       "124-metre safety-compliant retaining wall",
       "Zero HSE incidents during construction",
       "Passed all structural load tests",
-      "Enhanced facility safety standards",
-    ],
+      "Enhanced facility safety standards"
+    ]
   },
+
+  /* ----------------------------------------------------------
+     NEW ENTRIES ADDED BELOW — DO NOT MODIFY ANYTHING ABOVE
+     ---------------------------------------------------------- */
+
+  "commercial-lagos": {
+    id: "commercial-lagos",
+    title: "Commercial Office Complex",
+    location: "Victoria Island",
+    state: "Lagos",
+    service: "Building Construction",
+    scope: "4-storey commercial building with modern amenities",
+    result: "Delivered turnkey facility with full occupancy certification",
+    duration: "10 months",
+    client: "Private Commercial Client",
+    images: [
+      "/images/commercial-building-construction-lagos.jpg"
+    ],
+    challenges: [
+      "Tight urban site constraints",
+      "Structural requirements for multi-floor commercial use"
+    ],
+    solutions: [
+      "Optimized structural design",
+      "Staged construction to reduce disruption"
+    ],
+    outcomes: [
+      "Fully certified commercial facility",
+      "Delivered ready for tenants"
+    ]
+  },
+
+  "duplex-asaba": {
+    id: "duplex-asaba",
+    title: "Residential Duplex Development",
+    location: "Asaba",
+    state: "Delta State",
+    service: "Building Construction",
+    scope: "Construction of a 4-bedroom duplex including landscaping and finishing",
+    result: "Model unit completed and all 4 units prepared for sale",
+    duration: "7 months",
+    client: "Real Estate Developer",
+    images: [
+      "/images/duplex-residential-asaba.jpg"
+    ],
+    challenges: [
+      "Material sourcing timeline",
+      "Maintaining consistency across multiple units"
+    ],
+    solutions: [
+      "Local procurement",
+      "Unified finishing workflow"
+    ],
+    outcomes: [
+      "4 units completed to spec",
+      "High buyer interest immediately after completion"
+    ]
+  },
+
+  "architectural-design-anambra": {
+    id: "architectural-design-anambra",
+    title: "Architectural Design & Drawings",
+    location: "Client site - Anambra",
+    state: "Anambra State",
+    service: "Architectural Design",
+    scope: "Full architectural concept, technical drawings, and construction documentation",
+    result: "Approved design package used by contractor to start construction",
+    duration: "2 months",
+    client: "Private Residential Client",
+    images: [
+      "/images/architectural-drawings-anambra.jpg"
+    ],
+    challenges: [
+      "Client’s evolving design requirements",
+      "Complex site conditions"
+    ],
+    solutions: [
+      "Iterative design reviews",
+      "Accurate documentation aligned with site needs"
+    ],
+    outcomes: [
+      "Client-approved final design",
+      "Construction-ready documentation"
+    ]
+  }
 }
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
