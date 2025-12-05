@@ -32,9 +32,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "6 months",
     client: "Oshimili South Local Government",
     images: [
-      "/images/infrastructure.jpg",
-      "/images/infrastructure.jpg",
-      "/images/infrastructure.jpg"
+      "/images/drainage1.jpg",
+      "/images/drainage2.jpg",
+      "/images/drainage3.jpg"
     ],
     challenges: [
       "Existing infrastructure constraints",
@@ -65,9 +65,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "8 months",
     client: "Delta State Government",
     images: [
-      "/images/infrastructure-B5oqZ48HPsweqV6uCrZDAmURIoPFni.jpg",
-      "/images/1-NLHAjuQI0c9iOTX13ZriSrz73rE3q4.png",
-      "/images/frame-WlO9KompB5mlMQokP4xoAbihOsj4Yg.png"
+      "/images/road1.jpg",
+      "/images/road2.jpg",
+      "/images/homeroad.jpg"
     ],
     challenges: [
       "Poor soil conditions requiring extensive earthworks",
@@ -120,10 +120,6 @@ const projectDetails: Record<string, ProjectDetail> = {
     ]
   },
 
-  /* ----------------------------------------------------------
-     NEW ENTRIES ADDED BELOW — DO NOT MODIFY ANYTHING ABOVE
-     ---------------------------------------------------------- */
-
   "commercial-lagos": {
     id: "commercial-lagos",
     title: "Commercial Office Complex",
@@ -135,7 +131,9 @@ const projectDetails: Record<string, ProjectDetail> = {
     duration: "10 months",
     client: "Private Commercial Client",
     images: [
-      "/images/commercial-building-construction-lagos.jpg"
+      "/images/commercial-building-construction-lagos.jpg",
+      "/images/commercial-building-construction-lagos2.jpg",
+      "/images/commercial-building-construction-lagos3.jpg"
     ],
     challenges: [
       "Tight urban site constraints",
@@ -368,17 +366,7 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
                   <h3 className="text-xl font-bold mb-6">Project Details</h3>
 
                   <div className="space-y-6">
-                    <div>
-                      <div className="flex items-center gap-2 text-accent mb-2">
-                        <MapPin className="h-5 w-5" />
-                        <span className="font-medium">Location</span>
-                      </div>
-                      <p className="text-muted">
-                        {project.location}, {project.state}
-                      </p>
-                    </div>
-
-                    <div>
+                                    <div>
                       <div className="flex items-center gap-2 text-accent mb-2">
                         <Briefcase className="h-5 w-5" />
                         <span className="font-medium">Service</span>

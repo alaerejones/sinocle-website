@@ -28,7 +28,7 @@ const featuredProjects: Project[] = [
     location: "Ethiope East LGA",
     state: "Delta State",
     result: "5km of durable road infrastructure completed ahead of schedule",
-    image: "/images/project.jpg",
+    image: "/images/homeroad.jpg",
   },
   {
     id: "residential-delta",
@@ -44,7 +44,7 @@ const featuredProjects: Project[] = [
     location: "Lagos",
     state: "Lagos",
     result: "Commercial facility delivered on time and to spec",
-    image: "/images/commercial1.png",
+    image: "/images/commercial-building-construction-lagos.jpg",
   },
 ]
 
