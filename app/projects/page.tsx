@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { MapPin, ArrowRight } from "lucide-react"
-import { REGIONS, SERVICES } from "@/lib/constants"
+import { REGIONS} from "@/lib/constants"
 
 interface Project {
   id: string
@@ -88,12 +88,10 @@ const projects: Project[] = [
 
 export default function ProjectsPage() {
   const [selectedRegion, setSelectedRegion] = useState<string>("All")
-  const [selectedService, setSelectedService] = useState<string>("All")
 
   const filteredProjects = projects.filter((project) => {
     const regionMatch = selectedRegion === "All" || project.region === selectedRegion
-    const serviceMatch = selectedService === "All" || project.service === selectedService
-    return regionMatch && serviceMatch
+    return regionMatch
   })
 
   return (
@@ -170,34 +168,6 @@ export default function ProjectsPage() {
                 </button>
               ))}
             </div>
-
-            {/* Service filter */}
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="text-md text-muted font-medium">Service:</span>
-              <button
-                onClick={() => setSelectedService("All")}
-                className={`px-3 py-1.5 md:px-2.5 md:py-1 rounded text-xs font-bold transition-colors uppercase tracking-wide ${
-                  selectedService === "All"
-                    ? "bg-charcoal text-white"
-                    : "bg-surface text-muted hover:bg-mid-green hover:text-white"
-                }`}
-              >
-                All
-              </button>
-              {SERVICES.map((service) => (
-                <button
-                  key={service.id}
-                  onClick={() => setSelectedService(service.title)}
-                  className={`px-3 py-1.5 md:px-2.5 md:py-1 rounded text-xs font-bold transition-colors uppercase tracking-wide ${
-                    selectedService === service.title
-                      ? "bg-charcoal text-white"
-                      : "bg-surface text-muted hover:bg-mid-green hover:text-white"
-                  }`}
-                >
-                  {service.title}
-                </button>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -225,7 +195,6 @@ export default function ProjectsPage() {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute top-4 right-4 bg-charcoal text-white text-xs font-bold px-3 py-2 rounded uppercase tracking-wide">
-                      {project.service}
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
                   </div>
